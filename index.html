@@ -10,7 +10,7 @@
     <title>Etch-A-Sketch</title>
 </head>
 <body>
-    <header class="header">
+    <div class="sketch-pad">
         <div class="title">
         <h3 id="title1">Magic</h3>
         <h1 id="title2">Etch A Sketch</h1>
@@ -18,16 +18,19 @@
     </div>
     <div class="container"></div>
     <div class="buttons">
-        <button class="colorBtn">Black</button>
-        <button class="colorBtn">White</button>
-        <button class="colorBtn">Rainbow</button>
-        <button class="colorBtn">Erase</button>
-        <button class="colorBtn">Reset</button>
+        <button class="colorBtn" onclick="changeColor('black')">Black</button>
+        <button class="colorBtn" onclick="changeColor('gray')">Gray</button>
+        <button class="colorBtn" onclick="">Rainbow</button>
+        <button class="colorBtn" onclick="changeColor('#e0e0e0')">Erase</button>
+        <button class="colorBtn" onclick="">Reset</button>
     </div>
     <div class="resize">
-        <input type="number" placeholder="SET SIZE">
-        <button class="sizeBtn" >Resize</button>
+        <input 
+        type="number" 
+        placeholder="Set Size: 2 - 100" 
+        onchange="changeSize(this.value)">
+        <button class="sizeBtn">Resize</button>
     </div>
-</header>
+</div>
 </body>
 </html>
