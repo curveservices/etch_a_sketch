@@ -1,27 +1,36 @@
+/*  COLOR PALETTE
+
+    BLUE #9FEDF7
+    RED #FB5451
+    YELLOW #FFE600
+    SHADOW #9E4C4C
+    GRAY #ACACAC  */
+
 body {
-    background-color: #9fedf7;
+    background-color: #04abae;
     font-family: 'Lobster', sans-serif;
-    padding: 20px 50px;
-    margin: 50px 100px;
+    padding: 50px 0px;
+    margin: auto;
 }
 .title {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    color: #fae652;
+    color: #ffe600;
 }
 
 #title2 {
     font-size: 60px;
 }
- .header {
+ .sketch-pad {
+   
     width: 800px;
     height: 700px;
     background-color: #fb5451;
     padding-bottom: 75px;
     border-radius: 7%;
-    margin: 5px 20px;
-    box-shadow: 4px 5px 5px 6px hsl(0, 35%, 46%);
+    margin: auto;
+    box-shadow: 4px 5px 5px 6px #9e4c4c;
     
 }
 
@@ -29,13 +38,13 @@ body {
     display: grid;
     width: 700px;
     height: 400px;
-    display: grid;
-    border:rgb(172, 172, 172) solid ;
-    margin: 0px 50px 50px 50px; 
+    background-color: #e0e0e0;
+    border:#acacac solid ;
+    margin: auto; 
 }
 
 .cell {
-  border:rgba(172, 172, 172, 0.99) solid thin;
+  border:#acacacfc solid thin;
   
   
 }
@@ -43,15 +52,14 @@ body {
 .buttons {
   display: flex;
   justify-content: space-evenly;
-  margin-top: -30px;
-
+  margin-top: 30px;
 }
 
 .colorBtn {
   width: 75px;
   height: 75px;
   border-radius: 100%;
-  background-color: #fae652;
+  background-color: #FFE600;
   color: rgb(36, 36, 36);
   font-family: "Lobster" , sans-serif;
   font-size: large;
@@ -69,7 +77,21 @@ input {
 }
 
 .sizeBtn {
-  background-color:#fae652;
+  background-color:#ffe600;
   font-family: 'lobster' , sans-serif;
   font-size: x-large;
+}
+
+button:hover {
+  background-color: white;
+}
+
+.colorBtn:focus {
+  background-color: white;
+}
+
+@media only screen and (max-width: 1080px) {
+  .header {
+    width: 800;
+  }
 }
