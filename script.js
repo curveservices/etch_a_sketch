@@ -1,4 +1,5 @@
-//HTML button to run Javascript function 'onclick'  
+//HTML button to run Javascript function 'onclick' 
+// ---------------------------------------------- 
 let color = 'black'
 
 //Create the divs using JavaScript.
@@ -6,7 +7,7 @@ let color = 'black'
 function populateContainer(size){
   let container = document.querySelector('.container');
   let squares = container.querySelectorAll('div');
-  squares.forEach(div=> div.remove());
+  squares.forEach(div => div.remove());
 container.style.gridTemplateColumns = `repeat(${size} , 1fr)`;
 container.style.gridTemplateRows = `repeat(${size} , 1fr)`;
 

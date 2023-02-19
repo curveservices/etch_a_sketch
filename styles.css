@@ -1,16 +1,19 @@
 /*  COLOR PALETTE
 
     BLUE #04ABAE
-    RED #FB5451
+    RED #CC0000
     YELLOW #FFE600
     SHADOW #9E4C4C
     GRAY #ACACAC  */
+    @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 
 body {
-    background-color: #04abae;
+    background:linear-gradient(99deg, #00a8ab, #84fdff);
     font-family: 'Lobster', sans-serif;
-    padding: 50px 0px;
-    margin: auto;
+    padding: 20px 0px;
+    /* margin: 0 auto; */
+    /* width: 100vw;
+    height: 100vh; */
 }
 .title {
     display: flex;
@@ -22,8 +25,7 @@ body {
 #title2 {
     font-size: 60px;
 }
- .sketch-pad {
-   
+.sketch-pad {
     width: 800px;
     height: 700px;
     background-color: #cc0000;
@@ -64,7 +66,7 @@ body {
   width: 75px;
   height: 75px;
   border-radius: 100%;
-  background-color: #FFE600;
+  background: #FFE600 ;
   color: rgb(36, 36, 36);
   font-family: "Lobster" , sans-serif;
   font-size: large;
@@ -84,18 +86,37 @@ input {
 }
 
 .sizeBtn {
-  background-color:#ffe600;
+  background:linear-gradient(180deg, #FFE600, #fff9bf );
   font-family: 'lobster' , sans-serif;
   font-size: x-large;
+  border-radius: 5px;
+  width: 100px;
 }
 
 button:hover {
-  background-color: white;
+  /* background-color: white; */
   cursor:pointer;
 }
 
+button:active {
+  box-shadow: inset 1px 1px 1px 3px #534b00 ;
+}
+
 .colorBtn:focus {
-  background-color: white;
+  background-color: #fff9cd;
+}
+
+.footer {
+  font-family: 'Rock Salt', 'Lobster';
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  font-weight: 900;
+}
+a {
+  text-decoration: none;
+  color: #cc0000;
+  
 }
 
 @media only screen and (max-width: 1080px) {
