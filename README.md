@@ -5,9 +5,9 @@
 ### PC View :point_down:
 <img width="814" alt="etch-a-sketch" src="https://user-images.githubusercontent.com/101556296/220722832-bb34da78-2be6-4f5c-af7d-1268865381af.png">
 
-This assignment <a href="https://www.theodinproject.com/lessons/foundations-etch-a-sketch">Project: Etch-A-Sketch</a> was set as part of <a href="https://www.theodinproject.com/">The Odin Project</a>. 
-
 ## Overview
+
+This assignment <a href="https://www.theodinproject.com/lessons/foundations-etch-a-sketch">Project: Etch-A-Sketch</a> was set as part of <a href="https://www.theodinproject.com/">The Odin Project</a>. 
 
  This is a browser version of something between sketchpad and Etch-A-Sketch using HTML, JavaScript & CSS. 
  This assigment will allow me to demonstrate:
