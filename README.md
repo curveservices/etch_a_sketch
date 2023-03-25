@@ -1,14 +1,13 @@
-# Etch 'a' Sketch
+# Etch 'a' Sketch - The Odin Project
 
-## A neat browser-based paint toy
+### Live Demo :point_right: <a href="https://curveservices.github.io/etch_a_sketch/">Etch 'a' Sketch</a>
 
-### Live Demo :point_down: 
-<a href="https://curveservices.github.io/etch_a_sketch/">Etch 'a' Sketch</a>
-
-### PC View
+### PC View :point_down:
 <img width="814" alt="etch-a-sketch" src="https://user-images.githubusercontent.com/101556296/220722832-bb34da78-2be6-4f5c-af7d-1268865381af.png">
 
 This assignment <a href="https://www.theodinproject.com/lessons/foundations-etch-a-sketch">Project: Etch-A-Sketch</a> was set as part of <a href="https://www.theodinproject.com/">The Odin Project</a>. 
+
+## Overview
 
  This is a browser version of something between sketchpad and Etch-A-Sketch using HTML, JavaScript & CSS. 
  This assigment will allow me to demonstrate:
@@ -45,4 +44,4 @@ Instead of just changing the color of a square from black to white (for example)
 - The resize button was added at the bottom
 - Extra credit taken!
 
-***Rozla-Dev 11/2023***
+***Rozla-Dev 18/01/2023***
