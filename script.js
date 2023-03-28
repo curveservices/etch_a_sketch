@@ -26,20 +26,12 @@ populateContainer(16);
 
 //add input asking for new grid, set limit between 2px - 100px
 function changeSize(input) {
-  if (input >= 2 && input <= 100) {
-    populateContainer(input);
-  } else {
-    console.log("input error! to many or to few squares");
-  }
-}
+  input >= 2 && input <= 100 ? populateContainer(input) : console.log("input error! to many or to few squares");
+};
 
+// random color found thanks to stack overflow!!
 function colorSquare() {
-  if (color === "random") {
-    // random color found thanks to stack overflow!!
-    this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`;
-  } else {
-    this.style.backgroundColor = color;
-  }
+  color === "random" ? this.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)` : this.style.backgroundColor = color;
 }
 
 function changeColor(choice) {
