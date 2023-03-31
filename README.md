@@ -38,10 +38,19 @@ CSS Grid
 **Extra Credit**
 Instead of just changing the color of a square from black to white (for example), have each pass through with the mouse change it to a completely random RGB value. Then try having each pass just add another 10% of black to it so that only after 10 passes is the square completely black.
 
-## Scope Creep
+## Extra
 
 - I used CSS grid on this
 - The resize button was added at the bottom
 - Extra credit taken!
 
-***Rozla-Dev 18/01/2023***
+## Languages & Tools
+
+<a href="https://javascript.info/"><img width="100" alt="Javascript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" /></a> <a href="https://html.com/html5/"><img width="100" alt="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" /></a> <a href="https://css3.com/"><img width="100" alt="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" /></a>
+          
+
+
+***<a href="https://twitter.com/Crypto_Rozla"> Rozla-Dev </a> 18-01-2023***
+
+
+[Back to top 👆](#etch-a-sketch---the-odin-project)
